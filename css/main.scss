@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+header{
+  box-sizing: border-box;
+  background-color:#0a0d20 ;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  letter-spacing: 2px;
+  padding: 2%;
+  #logo{
+    font-size: 2.1rem;
+    font-family:'Syne Mono' ;
+    color: #FBFFF1;
+  }
+  ul{
+    list-style: none;
+    li{
+      display: inline-block;
+      padding: 10px;
+      a{
+        text-decoration: none;
+        color: #FBFFF1;
+        font-family:'Syne Mono' ;
+
+      }
+    }
+  }
+}
+
+#conta{
+  border: 2px solid #FBFFF1;
+  padding: 8px;
+  border-radius: 2px;
+  transition: .3s;
+}
+
+#conta:hover{
+  background-color: #FBFFF1;
+  color: #0a0d20;
+}
+
+main{
+  box-sizing: border-box;
+  background-color: #8D99AE;
+  width: 100vw;
+  height: 85vh;
+  display: flex;
+  .conteiner{
+    margin: 0 auto;
+    padding: 70px;
+    .border{
+      border: #5b6b86 0.2rem solid;
+      padding: 10%;
+      box-sizing: border-box;
+      .name{
+        font-size: 2rem;
+        padding: 10%;
+        font-family:'Syne Mono' ;
+        margin-left: 5%;
+      }
+      input{
+        padding: 20px;
+        outline: 0;
+        margin: 5px;
+      }
+
+      
+    } 
+  }
+}
+
+button{
+  padding: 15%;
+  margin-top: 5%;
+  margin-right: 6%;
+  margin-left: 1px;
+  background-color: #2B2D42 ;
+  color: #FBFFF1;
+  outline: 0;
+  border: none;
+  border-radius: 2px;
+  transition: .5s;
+}
+
+
+button:hover{
+  background-color: #FBFFF1;
+  cursor: pointer;
+  color: #2B2D42;
+}
+
+#resultado{
+  display: none;
+  background-color: #FBFFF1;
+  margin-top: 5%;
+  margin-left: -10%;
+  padding: 10%;
+  color: #0a0d20;
+  border: #0a0d20 2px solid;
+  border-radius: 2px;
+  font-size: 1.2rem;
+  width: 100%;
+
+}
+
+
+footer{
+  height: 5vh;
+  background-color: #0a0d20;
+  color: #FBFFF1;
+  margin: 0 auto;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 8%;
+  h3{
+    padding: 2px;
+  }
+}
